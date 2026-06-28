@@ -10,7 +10,7 @@
 
   padding: 32px 16px 16px;
 
-  transition: 300ms;
+  @include smooth-hover;
 
   &__image {
     height: 134px;
@@ -68,9 +68,11 @@
   &__button_buy {
     margin-top: 16px;
 
+    @include smooth-hover;
     @include width-with-spacing;
 
     justify-content: center;
+    box-sizing: border-box;
     background-color: $accent-color;
     border: none;
     border-radius: 5px;

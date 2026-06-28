@@ -23,3 +23,7 @@
     @content;
   }
 }
+
+@mixin smooth-hover {
+  transition: 300ms;
+}
