@@ -1,6 +1,4 @@
 .nav {
-  @include smooth-hover;
-
   &__list {
     display: flex;
     align-items: center;
@@ -18,6 +16,8 @@
   }
 
   &__link {
+    @include smooth-hover;
+
     position: relative;
 
     display: flex;
